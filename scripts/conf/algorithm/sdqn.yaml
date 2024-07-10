@@ -1,0 +1,7 @@
+defaults:
+  - shared.yaml
+
+name: sdqn
+fdqn: true
+use_upper_q: false
+update_towards_q: true

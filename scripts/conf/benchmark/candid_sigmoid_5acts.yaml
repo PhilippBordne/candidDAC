@@ -1,0 +1,4 @@
+defaults:
+  - shared.yaml
+
+n_act: 5

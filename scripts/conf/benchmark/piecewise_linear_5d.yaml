@@ -1,0 +1,6 @@
+name: piecewise_linear
+reward_shape: exponential
+exp_reward: 4.6
+dim: 5
+importance_base: 0.5
+n_act: 3

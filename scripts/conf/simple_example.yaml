@@ -1,0 +1,31 @@
+defaults:
+  - algorithm: saql.yaml
+  - hyperparameters: best_saql.yaml
+  - benchmark: piecewise_linear_2d.yaml
+  - _self_
+
+hydra:
+  run:
+    dir: results/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: false
+
+wandb:
+  project_name: null
+  tags: []
+
+track_training:
+  # display a progress bar to stdout during training
+  disable_pbar: false
+  # store model checkpoints of policies during training
+  store_ckpts: true
+  # evaluate greedy policy on training set every 100 episodes
+  eval_train: true
+  # evaluate greedy policy on test set every 100 episodes
+  eval_test: true
+  # compute value of initial state of an episode 
+  predict_initial_v: true
+  results_dir: null
+
+total_episodes: 10000
+seed: null

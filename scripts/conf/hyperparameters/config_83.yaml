@@ -1,0 +1,11 @@
+defaults:
+  - shared.yaml
+
+config_id: 83
+
+batch_size: 18
+gamma: 0.9342749529380404
+lr: 0.0001843560011895733
+start_e: 0.2550666526262378
+target_update_freq: 42
+tau: 0.37673293462909185

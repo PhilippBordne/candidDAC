@@ -1,0 +1,11 @@
+defaults:
+  - shared.yaml
+
+config_id: best_ddqn
+
+batch_size: 220
+gamma: 0.9349889240595958
+lr: 0.00010076224438395832
+start_e: 0.2382358341240069
+target_update_freq: 15
+tau: 0.2613622693762968

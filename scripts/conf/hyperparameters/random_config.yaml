@@ -1,0 +1,13 @@
+defaults:
+  - shared.yaml
+
+sample: true
+seed: null
+lr: null
+start_e: null
+batch_size: null
+tau: null
+gamma: null
+target_update_freq: null
+# for randomly sampled configs the config should be identified through seed used to sample it
+config_id: ${hyperparameters.seed}

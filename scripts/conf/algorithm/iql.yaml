@@ -1,0 +1,6 @@
+defaults:
+  - shared.yaml
+
+name: iql
+fdqn: true
+autorecursive: false

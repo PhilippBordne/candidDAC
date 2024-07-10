@@ -1,0 +1,11 @@
+defaults:
+  - shared.yaml
+
+config_id: best_iql
+
+batch_size: 63
+gamma: 0.9147926084577456
+lr: 0.000032679906934047
+start_e: 0.9289289127307658
+target_update_freq: 39
+tau: 0.1258201075347501

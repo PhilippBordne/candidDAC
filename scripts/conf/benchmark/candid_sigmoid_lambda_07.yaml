@@ -1,0 +1,4 @@
+defaults:
+  - candid_sigmoid_5d.yaml
+
+importance_base: 0.7

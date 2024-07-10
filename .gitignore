@@ -1,0 +1,7 @@
+__pycache__
+src/candid_dac.egg-info
+results
+wandb
+try_stuff
+.vscode/
+.DS_Store

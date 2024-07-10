@@ -1,0 +1,12 @@
+defaults:
+  - shared.yaml
+
+config_id: best_sdqn
+
+# Hyperparameters
+batch_size: 105
+gamma: 0.9696311972692117
+lr: 0.00030855395632361273
+start_e: 0.13413661201180627
+tau: 0.47651519425850886
+target_update_freq: 33

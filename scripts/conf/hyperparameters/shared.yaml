@@ -1,0 +1,7 @@
+expl_fraction: 0.5
+learning_starts: 2500
+end_e: 0.01
+buffer_size: 2500
+freq_q: 1
+
+sample: false

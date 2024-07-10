@@ -1,0 +1,6 @@
+defaults:
+  - shared.yaml
+
+name: saql
+fdqn: true
+autorecursive: true
